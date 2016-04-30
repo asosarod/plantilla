@@ -1,0 +1,21 @@
+{
+    "!name": "com.ionic.keyboard",
+    "!define": {
+        "!modules": {
+            "keyboard": {
+                "hideKeyboardAccessoryBar": "fn(hide: ?)",
+                "close": "fn()",
+                "show": "fn()",
+                "disableScroll": "fn(disable: ?)",
+                "isVisible": "bool",
+                "!type": "fn()"
+            }
+        }
+    },
+    "!plugin-version": "1.0.4",
+    "cordova": {
+        "plugins": {
+            "Keyboard": "!modules.keyboard"
+        }
+    }
+}
